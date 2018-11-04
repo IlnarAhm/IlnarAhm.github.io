@@ -260,17 +260,13 @@
 					</div> 
 				</div>
 				<!-- --------- main-timer END----------- -->
-				<input type="text" placeholder="Введите ваше Ф.И.О">
-				<input type="text" placeholder="Введите ваш телефон">
-				<button type="submit" class="button">Заказать со скидкой</button>
+				<form action="sendform.php" method="POST">
+					<input type="text" placeholder="Введите ваше Ф.И.О" name="name">
+					<input type="text" placeholder="Введите ваш телефон" name="phone">
+					<button type="submit" class="button">Заказать со скидкой</button>
+				</form>
+				
 				<p class="article-count">Осталось <span>14</span> шт. по акции</p>
-				<?php 
-					$client_id = '6741657';
-					$scope = 'offline,messages';
-				?>
-
-
-				<a href="https://oauth.vk.com/authorize?client_id=<?=6741657;?>&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=<?=$scope;?>&response_type=token&v=5.37">Получить токен</a>
 			</div>
 		</section>
 		<!-- ------------- main footer END -------------------- -->
