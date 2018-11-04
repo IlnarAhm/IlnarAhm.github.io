@@ -28,7 +28,7 @@
     $params = array(
       'user_id' => $id,    // Кому отправляем
       'message' => $message,   // Что отправляем
-      'access_token' => 'https://oauth.vk.com/blank.html#access_token=cb40e963e21edafc5938a74416cf8aa58f00fd148e8432bd2219d2c4c5175460e4518ce8d1166c809aeb6&expires_in=0&user_id=353004175',  
+      'access_token' => 'cb40e963e21edafc5938a74416cf8aa58f00fd148e8432bd2219d2c4c5175460e4518ce8d1166c809aeb6',  
       'v' => '5.62',
     );
 
