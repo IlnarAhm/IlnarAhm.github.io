@@ -1,0 +1,93 @@
+.main
+	background: url(../img/main-bg__top.jpg) center top no-repeat #8dc53e
+	// background-size: cover
+	&-wrap
+		background: url(../img/main-bg__bot.jpg) center bottom no-repeat
+		text-align: center
+	&-article
+		height: 528px
+		padding-top: 20px
+		text-align: center
+		p
+			text-transform: uppercase
+			font-size: 20px
+			text-shadow: 0 0 5px rgba(black, 0.7)
+			font-weight: 700
+			margin-bottom: 15px
+		&__title
+			background: #fff
+			width: 440px
+			margin-left: auto
+			margin-right: auto
+			padding: 26px 0
+			border-radius: 10px 
+			margin-bottom: 15px
+		h2
+			margin-bottom: 10px
+		&__text
+			font-size: 14px
+			text-transform: uppercase
+			display: flex
+			align-items: center
+			padding: 6px 10px
+			text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2)
+			box-shadow: 0 16px 13px -8px rgba(0, 0, 0, 0.2)
+			border-radius: 0 10px 10px 0
+			background: $gradient
+			width: 50%
+			// margin-bottom: 900px
+			h3
+				line-height: 1.2
+				padding-top: 5px
+	&-price
+		display: flex
+		justify-content: center
+		height: 90px
+		font-size: 14px
+		span
+		    font-size: 35px
+		    font-weight: 700
+		    line-height: 40px
+		&__old
+			text-align: right
+			span
+		    	text-decoration: line-through
+		&__sale
+			text-align: center
+			margin: 0 33px
+			font-size: 18px
+			font-weight: 700
+			span
+				font-size: 30px
+				padding-left: 5px
+		&__new
+			text-align: left
+	&-timer
+		height: 165px
+		text-align: center
+		margin-bottom: 20px
+		p
+			background: url(../img/main-timer-bg.png) center center no-repeat
+			margin-bottom: 20px
+		.time
+			margin-bottom: 20px
+.article-count
+	padding-bottom: 30px
+	span
+		display: inline-block
+		vertical-align: middle
+		margin: 0px 3px 0 3px
+		padding: 1px 8px
+		height: 28px
+		border-radius: 5px
+		font-size: 18px
+		color: #fff
+		background: #ffb300
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2)
+		background-image: $gradient
+		border-bottom: 2px solid #d59300
+.description
+	p
+		color: #000
+		text-align: justify
+		padding: 0 20px 20px
